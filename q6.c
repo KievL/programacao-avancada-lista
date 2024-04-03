@@ -1,7 +1,10 @@
-#include <stdio.h>
+/*
+6. Assumindo que pulo[] é um vetor do tipo int, quais das seguintes expressões referenciam o
+valor do terceiro elemento do vetor?
 
-int main(){
-    int pulo[5] = {1,2,3,4,5};
+◦ *(pulo + 2); correto.
+◦ *(pulo + 4); errado. isto é o valor do quinto elemento.
+◦ pulo + 4; errado. isto é o endereço do quinto elemento.
+◦ pulo + 2; errado. isto é o endereço do terceiro elemento.
 
-    printf("%d \n", *(pulo+4));
-}
+*/

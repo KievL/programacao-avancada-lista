@@ -1,9 +1,12 @@
-#include <stdio.h>
+/*
+7. Considerando a declaração
 
-int main(){
-    int mat[4]={1,2,3,4}, *p, x;
+int mat[4], *p, x;
 
-    x = (*mat);
+quais das seguintes expressões são válidas? Justifique.
 
-    printf("%d %d \n", x, *mat);
-}
+p = mat + 1; válida, pois p recebe o endereço de mat[1].
+p = mat; válida, pois p recebe o endereço de mat[0].
+x = (*mat); válida, pois x recebe o valor de mat[0].
+
+*/

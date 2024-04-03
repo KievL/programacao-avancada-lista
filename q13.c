@@ -1,3 +1,8 @@
+/*
+13. O que é memory leak? Procure 3 exemplos de programas em C que apresentem memory leak e
+explique o que acontece em cada um deles.
+*/
+
 //Memory leak é a não liberação do espaço da memória depois de uma alocação. Se existe alguma situação em que a memória deixe de ser liberada,
 //então ocorre o memory leak e, assim, o espaço de memória fica bloqueado e pode causar problemas de desempenho e até contribuir para esgotar a memória
 //disponível no pc. 

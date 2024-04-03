@@ -1,6 +1,11 @@
+/*15. Implemente em linguagem C uma função em um programa de computador que leia n valores do
+tipo float e os apresente em ordem crescente. Utilize alocação dinâmica de memória para
+realizar a tarefa.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
+//função para troca os valores dos ponteiros
 int trocar(int *a, int *b){
     int aux = *a;
     *a=*b;
@@ -19,6 +24,8 @@ int main(){
         scanf("%d",px+i);
     }
 
+    //pelo método da bola vai iterando por todo o resto da array a partir de cada elemento,
+    //vai fazendo a comparação e vai trocando a ordem dos elementos para deixar tudo em ordem crescente.
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (px[j] > px[j + 1]) {
